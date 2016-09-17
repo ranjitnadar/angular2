@@ -1,0 +1,14 @@
+.logo {
+    text-indent: -999999px;
+    content: url('https://angular.io/resources/images/logos/standard/logo-nav.png');
+    background: rgb(82, 82, 230);
+}
+
+.navbar {
+    border: 1px solid #f0f0f0;
+}
+
+ul.nav li a {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.4);
+}
