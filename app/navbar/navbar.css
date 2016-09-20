@@ -12,3 +12,6 @@ ul.nav li a {
     font-size: 14px;
     color: rgba(0, 0, 0, 0.4);
 }
+a.is-active{
+	background: red;
+}

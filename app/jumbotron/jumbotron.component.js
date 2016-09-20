@@ -11,11 +11,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var JumbotronComponent = (function () {
     function JumbotronComponent() {
-        this.jbtHeading = 'Welcome to home page';
-        this.jbtText = 'This is home page ';
-        this.jbtBtnText = 'Readmore...';
-        this.jbtBtnUrl = 'http://localhost:3000';
     }
+    __decorate([
+        core_1.Input(), 
+        __metadata('design:type', Object)
+    ], JumbotronComponent.prototype, "items", void 0);
     JumbotronComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
