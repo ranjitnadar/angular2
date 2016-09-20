@@ -9,9 +9,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var Items = (function () {
+    function Items() {
+    }
+    return Items;
+}());
+exports.Items = Items;
 var AboutComponent = (function () {
     function AboutComponent() {
-        this.items = { title: 'About Page', description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\n\t\ttempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,\n\t\tquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\n\t\tconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse\n\t\tcillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non\n\t\tproident, sunt in culpa qui officia deserunt mollit anim id est laborum.", pageUrl: '/', pageBtn: 'readmore...' };
+        this.items = {
+            title: 'About Page',
+            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\n\t\ttempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,\n\t\tquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\n\t\tconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse\n\t\tcillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non\n\t\tproident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            pageUrl: '/',
+            pageBtn: 'readmore...'
+        };
     }
     AboutComponent = __decorate([
         core_1.Component({
